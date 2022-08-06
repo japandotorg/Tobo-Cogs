@@ -2,6 +2,6 @@
 from .sticky import Sticky
 
 
-def setup(bot):
+async def setup(bot):
     """Load Sticky."""
-    bot.add_cog(Sticky(bot))
+    await bot.add_cog(Sticky(bot))
