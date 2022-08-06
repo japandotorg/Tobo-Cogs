@@ -6,5 +6,5 @@ from .errorlogs import ErrorLogs
 __red_end_user_data_statement__ = "This cog does not store end user data."
 
 
-def setup(bot: Red):
-    bot.add_cog(ErrorLogs())
+async def setup(bot: Red):
+    await bot.add_cog(ErrorLogs())
